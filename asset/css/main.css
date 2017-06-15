@@ -48,13 +48,16 @@ height: 100vh;
 	border: 1px solid #fff;
 	padding: 20px;
 	width: 100%;
-	color: #fff;
 	font-size: 20px;
 }
-.btn-sign-in:hover{
-	background-color: #FFFFFC;
-	color: #F03757;
+.btn-sign-in a{
+	color: #fff;
 }
+.btn-sign-in a:hover{
+	color: #F03757;
+	text-decoration: none;
+}
+
 #recordar{
 	margin-top: 20px;
 	color: #fff;
@@ -89,4 +92,12 @@ height: 100vh;
 }
 #registrate a:hover{
 	color: #F03757;
+}
+
+/**/
+.error{
+	background-image: url(../img/error.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: right;
 }
