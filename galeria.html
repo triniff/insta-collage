@@ -3,8 +3,48 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Galeria</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+	<!-- Font -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Estilos -->
+	<link rel="stylesheet" href="asset/css/main.css">
 </head>
-<body>
-	<h1>holi</h1>
+<body id="galeria">
+	<section id="contenido">
+	<div class="row">
+    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        	<div class="collage" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+      	</div>
+    </div>
+    <div class="row">
+    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 insta">
+    		<i class="fa fa-instagram" aria-hidden="true" class="insta-booth"></i>
+    		<p class="insta-booth">PHOTO BOOTH</p>
+		</div>
+    </div>
+    <div class="row container-photos">
+    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	    	<div class="galeria" ondragover="permitirDropReverse(event)" ondrop="dropReverse(event)">
+		    	<img id="foto1" draggable="true" ondragstart="drag(event)" src="asset/img/img1.jpg">
+		        <img id="foto2" draggable="true" ondragstart="drag(event)" src="asset/img/img2.jpg" alt="">
+		        <img id="foto3" draggable="true" ondragstart="drag(event)" src="asset/img/img3.jpg" alt="">
+		       	 <img id="foto4" draggable="true" ondragstart="drag(event)" src="asset/img/img4.jpg" alt="">
+	    		<img id="foto1" draggable="true" ondragstart="drag(event)" src="asset/img/img5.jpg">
+		        <img id="foto2" draggable="true" ondragstart="drag(event)" src="asset/img/img6.jpg" alt="">
+		        <img id="foto3" draggable="true" ondragstart="drag(event)" src="asset/img/img7.jpg" alt="">
+		       	<img id="foto4" draggable="true" ondragstart="drag(event)" src="asset/img/img8.jpg" alt="">
+	       	</div>
+    	</div>
+    </div>
+  </section>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="asset/js/main.js"></script>
 </body>
 </html>

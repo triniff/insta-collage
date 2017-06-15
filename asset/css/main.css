@@ -3,7 +3,9 @@
 	padding: 0;
 	text-align: center;
 }
-body{
+
+/*ESTILOS INDEX.HTML*/
+#home{
 background: -webkit-linear-gradient(bottom left, rgba(103,250,132,1) 0%, rgba(250,250,105,1) 37%, rgba(250,105,158,1) 100%);
 background: -o-linear-gradient(bottom left, rgba(103,250,132,1) 0%, rgba(250,250,105,1) 37%, rgba(250,105,158,1) 100%);
 background: linear-gradient(to top right, rgba(103,250,132,1) 0%, rgba(250,250,105,1) 37%, rgba(250,105,158,1) 100%);
@@ -57,7 +59,6 @@ height: 100vh;
 	color: #F03757;
 	text-decoration: none;
 }
-
 #recordar{
 	margin-top: 20px;
 	color: #fff;
@@ -94,10 +95,43 @@ height: 100vh;
 	color: #F03757;
 }
 
-/**/
+/*ESTILOS ERROR INPUT JS*/
 .error{
 	background-image: url(../img/error.png);
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position: right;
+}
+
+
+/*ESTILOS GALERIA.HTML*/
+#galeria{
+	background-color: #262626;
+}
+#contenido img{
+	max-width: 250px;
+}
+.collage{
+	width: 100%;
+	height: 350px;
+	background-color: #fff;
+}
+.galeria{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container-photos img{
+	cursor: pointer;
+	margin: 3px;
+}
+.insta-booth{
+	display: inline-block;
+	font-size: 25px;
+	padding: 50px 0;
+	color: #3154CD;
+}
+.insta i{
+	font-size: 25px;
+	color: #3154CD;
 }
