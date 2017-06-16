@@ -30,4 +30,3 @@ function drop(ev) {
   var idFoto = ev.dataTransfer.getData('text');
   ev.target.appendChild(document.getElementById(idFoto));
 }
-
